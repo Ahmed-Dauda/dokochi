@@ -1,11 +1,14 @@
-* {
+html {
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
     background: #ccc;
     width: 100%;
-    
+    max-width: 1200px;
+    line-height: 1.5;
+    margin: auto;
 }
 
 /* images section*/
@@ -26,8 +29,9 @@ body {
    
 }
 
+
 .img-fluid{
-   width: 100%;
+   max-width: 100%;
 }
 
 .card-button{
@@ -50,17 +54,22 @@ body {
 }
 
 .navbar-brand{
-font-size:   30px;
+font-size:  30px;
+
 }
 .navbar-toggler-icon{
-   color: blue;
+   color: red;
 }
 .form-section{
    width: 80%;
    margin: 0 10% 0 10%;
 }
 .nav-link{
-   color: red;
+   color: white;
+   font-size: 20px;
+   display: inline;
+   
+
 }
 
 /* footer section*/
@@ -70,3 +79,20 @@ font-size:   30px;
 }
 
 /*end of footer section*/
+
+/*media query section*/
+
+@media screen and (min-width: 768px){
+    .footer-section{
+        background-color: rgb(81, 41, 29);
+        
+    }
+
+}
+/*end of media query section*/
+
+/*nav section*/
+nav, .bg{
+    background-color: rgb(81, 41, 29);
+    color: red;
+}
