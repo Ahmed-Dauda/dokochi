@@ -37,9 +37,9 @@
   
    <a class="nav-link" href="#">Contact Me</a>
    
-  </li> <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a> <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <div class="dropdown-divider"></div> <a class="dropdown-item" href="#">Something else here</a> </div> </li> <li class="nav-item"> <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a> </li> </ul>
   
-</div> </nav>
+</div> 
+</nav>
  </section> 
 
   
@@ -67,41 +67,28 @@
   <p>I am a writer and politician</p>
   </div>
   
-  </section>
+  <!---chamging images section-->
   
-  
-  <br><br>
-  
-  <!--image1  title and price-->
-  <section>
-  
-  <div class="card" style="width: 18rem;"> <img src="images/book5.jpeg" class="card-img-top" alt="card image."> <div class="card-body"><h2>Title</h2><br><hr>
- <p class="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p><br> 
- <div>
- <hr>
- <h3>price: £1000/#20000</h3>
- </div>
- 
- </div>
+  </section class ='changing image'>
+  <div class="style-image">
+<script>
+    let myImage = document.querySelector('img');
+    myImage.onclick = function(){
+        let mySrc = myImage.getAttribute('src');
+
+        if (mySrc ==='images/book7.jpeg'){
+            myImage.setAttribute('src', 'images/book.jpeg');
+        }
+        else{
+            myImage.setAttribute('src', 'images/book7.jpeg');
+        }
+    }
+</script>
   </div>
   
-  </section>
-  
-  <!--image2  title and price-->
-  <br>
-  <section>
-  
-  <div class="card" style="width: 18rem;"> <img src="images/book4.jpeg" class="card-img-top" alt="card image."> <div class="card-body"><h2>Title</h2><br><hr>
- <p class="card-text"> Some quick example text to build on the card title and make up the bulk of the card's content.</p><br> 
- <div>
- <hr>
- <h3>price: £1000/#20000</h3>
- </div>
- 
- </div>
-  </div>
-  
-  </section>
+<section>
+
+</section>
   
   <!--form-->
   <br>
@@ -128,45 +115,20 @@
         <h6 class="text-uppercase mb-4 font-weight-bold">Dokochi Books's Fair</h6>
         <p>Our books are of high standard and educative.</p>
       </div>
+      
+
+      
       <!-- Grid column -->
 
       <hr class="w-100 clearfix d-md-none">
 
       <!-- Grid column -->
-      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-        <h6 class="text-uppercase mb-4 font-weight-bold">Products</h6>
-        <p>
-          <a href="#!">Our Products</a>
-        </p>
-        <p>
-          <a href="#!">We Transfer</a>
-        </p>
-        <p>
-          <a href="#!">BrandFlow Product Available</a>
-        </p>
-        <p>
-          <a href="#!">Try Us</a>
-        </p>
-      </div>
-      <!-- Grid column -->
-
-      <hr class="w-100 clearfix d-md-none">
-
-      <!-- Grid column -->
-      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
         <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
         <p>
-          <a href="#!">Your Account</a>
+          <a href="#!">Blog Page</a>
         </p>
-        <p>
-          <a href="#!">Become an Affiliate</a>
-        </p>
-        <p>
-          <a href="#!">Shipping Rates</a>
-        </p>
-        <p>
-          <a href="#!">Help</a>
-        </p>
+       
       </div>
 
       <!-- Grid column -->
