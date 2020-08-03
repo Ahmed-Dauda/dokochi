@@ -5,7 +5,7 @@ html {
 
 /* body section*/
 body {
-    background: #ccc;
+    background: white;
     width: 100%;
     max-width: 1200px;
     line-height: 1.5;
@@ -34,7 +34,7 @@ body {
 
 /* card section*/
 .pink-text{
-    position: ;
+    
     color: red;
     font-size: 40px;
     
@@ -51,18 +51,11 @@ body {
 
 .card-text{
     color: white;
-    background-color:  rgb(81, 41, 29);
+    
     text-align: center;
     
 }
 
- @media screen and (min-width: 768px){
-    .card-text{
-        font-size: 35px;
-        background-color: rgb(28, 4, 8);
-  
-    }
-}
 
 .about{
     position: fixed;
@@ -76,24 +69,10 @@ body {
    padding: 20px;
 }
 
-a, .navbar-brand{
-font-size:  30px;
-color: white;
 
-}
-.navbar-toggler-icon{
-   color: red;
-}
 .form-section{
    width: 80%;
    margin: 0 10% 0 10%;
-}
-.nav-link{
-   color: white;
-   font-size: 20px;
-  
-   
-
 }
 
 /* footer section*/
@@ -109,11 +88,11 @@ color: white;
 @media screen and (min-width: 768px){
     .footer-section{
         background-color: rgb(81, 41, 29);
-        font-size: 40px;
+        font-size: 18px;
     }
 
 }
-/*end of media query section*/
+
 
 /*nav section*/
 nav, .bg{
@@ -123,4 +102,31 @@ nav, .bg{
 
 .view { 
  
- background: url("https://mdbootstrap.com/img/Photos/Others/img (51).jpg")no-repeat center center; background-size: cover; } @media (min-width: 768px) { .view { overflow: visible; margin-top: -56px; } } .navbar { z-index: 1; } html, body, header, .view { height: 100%; }
+    background: url("https://mdbootstrap.com/img/Photos/Others/img (51).jpg")no-repeat center center;
+     background-size: cover;
+     } 
+     @media (min-width: 768px) {
+        .view { overflow: visible; 
+            margin-top: -56px;
+           
+         } }
+        .navbar {
+               z-index: 1;
+             } 
+        html, body, header, .view { height: 100%; }
+   
+
+a, .navbar-brand{
+        font-size:  30px;
+        color: white;
+                
+}
+.navbar-toggler-icon{
+        color: red;
+        }
+
+.nav-link{
+        color: white;
+        font-size: 20px;
+           
+         }
