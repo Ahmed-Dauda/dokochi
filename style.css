@@ -3,6 +3,7 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* body section*/
 body {
     background: #ccc;
     width: 100%;
@@ -11,11 +12,12 @@ body {
     margin: auto;
 }
 
+
+
 /* images section*/
 .figure{
    width: 100%;
 }
-
 
 .figure-caption {
    text-align: center;
@@ -30,23 +32,44 @@ body {
 }
 
 
-.img-fluid{
-   max-width: 100%;
+/* card section*/
+.pink-text{
+    position: ;
+    color: red;
+    font-size: 40px;
+    
 }
 
-.card-button{
-   width: 100%;
+.card-title{
+    
+    color: red;
+    font-size: 30px;
+ 				padding: -50px;
+ 				
+   
 }
 
-.card-img-top{
+.card-text{
+    color: white;
+    background-color:  rgb(81, 41, 29);
+    text-align: center;
+    
+}
 
-   color: black;
-   width: 100%;
+ @media screen and (min-width: 768px){
+    .card-text{
+        font-size: 35px;
+        background-color: rgb(28, 4, 8);
+  
+    }
 }
-.card {
-   margin-left: 40px;
+
+.about{
+    position: fixed;
+    color: blue;
+ 				font-size: 35px;
+    background-color:  rgb(81, 41, 29);
 }
-/* end of images section*/
 
 .about-section{
    text-align: center;
@@ -79,14 +102,14 @@ color: white;
    color: white;
 }
 
-/*end of footer section*/
+
 
 /*media query section*/
 
 @media screen and (min-width: 768px){
     .footer-section{
         background-color: rgb(81, 41, 29);
-        
+        font-size: 40px;
     }
 
 }
@@ -97,3 +120,5 @@ nav, .bg{
     background-color: rgb(81, 41, 29);
     color: red;
 }
+
+
