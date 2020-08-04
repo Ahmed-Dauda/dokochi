@@ -102,19 +102,26 @@ nav, .bg{
 
 .view { 
  
-    background: url("https://mdbootstrap.com/img/Photos/Others/img (51).jpg")no-repeat center center;
+    background: url("images/ahmed2.jpg")no-repeat center center;
      background-size: cover;
+   
      } 
      @media (min-width: 768px) {
         .view { overflow: visible; 
             margin-top: -56px;
+        padding-top: 920px;
+        font-size: 2rem;
+        			
+        				
            
-         } }
+         } 
+}
         .navbar {
                z-index: 1;
              } 
         html, body, header, .view { height: 100%; }
    
+
 
 a, .navbar-brand{
         font-size:  30px;
@@ -129,4 +136,15 @@ a, .navbar-brand{
         color: white;
         font-size: 20px;
            
-         }
+ }
+
+.txts{
+    padding: 40px;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-row: auto;
+    gap: 90px;
+    color: brown;
+}
