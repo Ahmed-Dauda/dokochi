@@ -1,17 +1,16 @@
 html {
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;html {
-    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 /* body section*/
 body {
-    background: white;
+    background: burlywood;
     width: 100%;
     max-width: 1200px;
     line-height: 1.5;
     margin: auto;
+    font-family: 'Times New Roman', Times, serif;
 }
 @media screen and (min-width: 768px){
     body{
@@ -38,32 +37,35 @@ body {
    padding: 30px;
    
 }
+/*first image with texts section*/
+.picture-txt{
+    padding: 100px;
+    color: white;
+
+}
 
 
 /* card section*/
-.pink-text{
+.flex-1{
     
-    color: red;
-    font-size: 40px;
+    color:white;
+    box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
+    border: 1px solid black;
+    width: 100%;
+    height: 420px;
+    background-color: rgb(81, 41, 29);
+    font-family: 'Times New Roman';
+    font-size: 18px;
     
-}
-
-.card-title{
     
-    color: red;
-    font-size: 30px;
- 	padding: -50px;
- 				
-   
-}
-
-.card-text{
-    color: white;
-    
-    text-align: center;
     
 }
 
+.pb-3{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+
+}
 
 .about{
     position: fixed;
@@ -86,8 +88,14 @@ body {
 /* footer section*/
 .footer-section{
    background-color:  rgb(81, 41, 29);
-   color: white;
+   color:black;
+   
 }
+.page-footer{
+    font-size: 25px;
+    font-family: Arial, Helvetica;
+}
+
 @media screen and (min-width: 768px){
     .footer-section{
         color: black; 
@@ -117,20 +125,32 @@ nav, .bg{
  
     background: url("images/amina.jpg")no-repeat center center;
      background-size: cover;
-     height: 300px;
-   
      } 
-     @media (min-width: 768px) {
+
+     @media (min-width: 40em) {
         .view { overflow: visible; 
             margin-top: -56px;
-        padding-top: 920px;
+        padding-top: 660px;
         font-size: 2rem;
-        			
-        				
-           
+        font-family: 'Times New Roman';
+        text-shadow: 5px 6px 1px black;
+        			  
          } 
 }
-        .navbar {
+
+@media (max-width: 992px) {
+    .view { overflow: visible; 
+        margin-top: -56px;
+    padding-top: 230px;
+    font-size: 2rem;
+    font-family: 'Times New Roman';
+    text-shadow: 5px 6px 1px black;
+
+                  
+     } 
+}
+
+.navbar {
                z-index: 1;
              } 
         html, body, header, .view { height: 100%; }
@@ -153,161 +173,31 @@ nav, .bg{
            
  }
 
-.txts{
-    padding: 40px;
-    font-size: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px;
-    grid-row: auto;
-    gap: 90px;
-    color: brown;
-}
+/*form section*/
+.form{
+    color:black;
+    box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
+    border: 1px solid black;
+    width: 80%;
+    height: 300px;
+    margin: 50px auto;
+    background-color: burlywood;
+    font-family: 'Times New Roman';
+    font-size: 18px;
 
 }
 
-/* body section*/
-body {
-    background: white;
-    width: 100%;
-    max-width: 1200px;
-    line-height: 1.5;
-    margin: auto;
-}
 
-
-
-/* images section*/
-.figure{
-   width: 100%;
-}
-
-.figure-caption {
-   text-align: center;
-   color: tomato;
-   font-size: 20px;
-}
-
-.figure-img {
-   height: 450px;
-   width: 100%;
-   
-}
-
-
-/* card section*/
-.pink-text{
-    
-    color: red;
-    font-size: 40px;
-    
-}
-
-.card-title{
-    
-    color: red;
-    font-size: 30px;
- 				padding: -50px;
- 				
-   
-}
-
-.card-text{
-    color: white;
-    
+.press-button{
+    color:black;
+    box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
+    border: 1px solid black;
+    width: 80%;
+    height: 50px;
+    margin: 70px auto;
+    background-color: burlywood;
+    font-family: 'Times New Roman';
+    font-size: 18px;
     text-align: center;
-    
-}
-
-
-.about{
-    position: fixed;
-    color: blue;
- 				font-size: 35px;
-    background-color:  rgb(81, 41, 29);
-}
-
-.about-section{
-   text-align: center;
-   padding: 20px;
-}
-
-
-.form-section{
-   width: 80%;
-   margin: 0 10% 0 10%;
-}
-
-/* footer section*/
-.footer-section{
-   background-color:  rgb(81, 41, 29);
-   color: white;
-}
-
-
-
-/*media query section*/
-
-@media screen and (min-width: 768px){
-    .footer-section{
-        background-color: rgb(81, 41, 29);
-        font-size: 18px;
-    }
-
-}
-
-
-/*nav section*/
-nav, .bg{
-    background-color: rgb(81, 41, 29);
-    color: red;
-}
-
-.view { 
- 
-    background: url("images/ahmed2.jpg")no-repeat center center;
-     background-size: cover;
-   
-     } 
-     @media (min-width: 768px) {
-        .view { overflow: visible; 
-            margin-top: -56px;
-        padding-top: 920px;
-        font-size: 2rem;
-        			
-        				
-           
-         } 
-}
-        .navbar {
-               z-index: 1;
-             } 
-        html, body, header, .view { height: 100%; }
-   
-
-
-a, .navbar-brand{
-        font-size:  30px;
-        color: white;
-                
-}
-.navbar-toggler-icon{
-        color: red;
-        }
-
-.nav-link{
-        color: white;
-        font-size: 20px;
-           
- }
-
-.txts{
-    padding: 40px;
-    font-size: 20px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100px 100px;
-    grid-row: auto;
-    gap: 90px;
-    color: brown;
+    padding: 10px;
 }
