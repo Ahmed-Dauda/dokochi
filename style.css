@@ -153,11 +153,17 @@ body {
         font-size: 1.1em;   
     }
     .picture-txt{
-        padding: 140px;
+        padding-top: 140px;
         color: white;
-        font-size: 0.8em;
-    
+        font-size: 1em;
+        display: block;
+        position: relative;
+        left: 120px;
+        
+        
+        
     }
+   
     .form{
     color:black;
     box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
@@ -168,6 +174,7 @@ body {
     background-color: burlywood;
     font-family: 'Times New Roman';
     font-size: 18px;
+   
 
 }
      
@@ -233,9 +240,14 @@ body {
         font-size: 1.3em;   
     }
     .picture-txt{
-        padding: 300px;
+        padding: 800px;
         color: white;
-        font-size: 0.5em;
+        font-size: 1.9em;
+        position: relative;
+        left: 30px;
+        top: -30px;
+        display: inline;
+        
     
     }
      
