@@ -99,6 +99,75 @@ body {
 
 
 /*media query section*/
+
+@media screen and (max-width: 600px){
+    .footer-section{
+        background-color:  rgb(81, 41, 29);
+        color:white;
+        
+        
+     }
+     
+     .page-footer{
+         font-size: 1.1em;
+         font-family: Arial, Helvetica;
+     }
+
+     .flex-1{
+    
+        color: white;
+        box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
+        border: 1px solid black;
+        width: 100%;
+        height: 600px;
+        background-color: rgb(81, 41, 29);
+        font-size: 1.1em;   
+    }
+    .picture-txt{
+        padding: 120px;
+        color: white;
+        font-size: 0.5em;
+    
+    }
+     
+
+}
+
+
+@media screen and (min-width: 600px){
+    .footer-section{
+        background-color:  rgb(81, 41, 29);
+        color:white;
+        
+        
+     }
+     
+     .page-footer{
+         font-size: 1.1em;
+         font-family: Arial, Helvetica;
+     }
+
+     .flex-1{
+    
+        color: white;
+        box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
+        border: 1px solid black;
+        width: 100%;
+        height: 600px;
+        background-color: rgb(81, 41, 29);
+        font-size: 1.1em;   
+    }
+    .picture-txt{
+        padding: 250px;
+        color: white;
+        font-size: 0.2em;
+    
+    }
+     
+
+}
+
+
 @media screen and (min-width: 40em){
     .footer-section{
         background-color:  rgb(81, 41, 29);
@@ -118,12 +187,12 @@ body {
         box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
         border: 1px solid black;
         width: 100%;
-        height: 660px;
+        height: 740px;
         background-color: rgb(81, 41, 29);
-        font-size: 1.1em;   
+        font-size: 1.3em;   
     }
     .picture-txt{
-        padding: 0px;
+        padding: 300px;
         color: white;
         font-size: 0.5em;
     
@@ -131,6 +200,8 @@ body {
      
 
 }
+
+
 
 
 /*nav section*/
@@ -141,7 +212,7 @@ nav, .bg{
 
 .view { 
  
-    background: url("images/amina.jpg")no-repeat center center;
+    background: url("images/ahmed2.jpg")no-repeat center center;
      background-size: cover;
      } 
 
@@ -183,6 +254,35 @@ nav, .bg{
     
     } 
 }
+
+@media (min-width: 62em) {
+    .view { overflow: visible; 
+        margin-top: -56px;
+    padding-top: 230px;
+    font-size: 2rem;
+    font-family: 'Times New Roman';
+    text-shadow: 5px 6px 1px black;
+
+                  
+     }
+     .flex-1{
+    
+        color:white;
+        box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
+        border: 1px solid black;
+        width: 100%;
+        height: 25.25em;
+        background-color: rgb(81, 41, 29);
+        font-size: 1.1em;   
+    }
+    .picture-txt{
+        padding: 370px;
+        color: white;
+        font-size: 0.5em;
+    
+    } 
+}
+
 
 .navbar {
                z-index: 1;
