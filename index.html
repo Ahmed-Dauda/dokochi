@@ -11,7 +11,9 @@
 
 <!--font awesome-->
    <script src="https://kit.fontawesome.com/36a1a3adff.js" crossorigin="anonymous" ></script>
-   
+  
+  <!--jquery for framework-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
 
 <!-- Bootstrap CSS --> 
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -121,6 +123,8 @@
 <!--<img class="card-img-top" src="images/book2.jpeg" alt="Card image cap">
 -->
  
+ 
+
 <!--Card content-->
 <div class="card-body">
 
@@ -128,6 +132,8 @@
   <div class="d-block d-md-flex">
 
     <!-- Column -->
+   
+   
     <div class="p-3 flex-1" id="about">
 
       <h2 class="pb-3 font-weight-bold">About Me</h2>
@@ -171,14 +177,17 @@
 
 </div>
 </div>
-</section>
+
   
-  
+
   <!--form-->
+ 
   <div class="form" style="display: none;" id="form">  
     <section  class="form-section">
     <form> 
         <div class="form-group">
+         <button id="hide"><img style="opacity: 1; background-color:red;" class="hideimg" src="images/cancel.png" width="30px" height="30px"> </button>
+         <br>
              <label for="exampleInputEmail1">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"> <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> 
             </div> <div class="form-group"> <label for="exampleInputPassword1">Password</label> 
@@ -191,11 +200,13 @@
     </div>
 
   <div class="press-button" id="message-me"><a href="#form" title="This is Muhammad Dagaci. Click to send me message"><strong>Message Me</strong> </a></div>
-  <br>
+  
+ <br>
 
   <script>
     btn = document.querySelector('.press-button');
-    form = document.querySelector('.form');
+    hide = document.querySelector('#hide');
+   form = document.querySelector('.form');
 
     function myForm(){
       form.style.display ='block';
@@ -204,9 +215,26 @@
     btn.onclick = function(){
       myForm()
     }
+
+function myForm1(){
+      form.style.display ='none';
+    }
+
+    hide.onclick = function(){
+      myForm1()
+    }
+
+
   </script>
 
-  
+ 
+ 
+ 
+
+ 
+
+
+
   <!--footee section-->
   <br>
   <section  class="footer-section" id="footer">

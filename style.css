@@ -56,7 +56,8 @@ body {
     height: 420px;
     background-color: rgb(81, 41, 29);
     font-family:  serif;
-    font-size: 18px;   
+    font-size: 18px; 
+    
 }
 
 .pb-3{
@@ -169,7 +170,7 @@ body {
     box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
     border: 1px solid black;
     width: 80%;
-    height: 320px;
+    height: 350px;
     margin: 50px auto;
     background-color: burlywood;
     font-family: 'Times New Roman';
@@ -359,3 +360,12 @@ nav, .bg{
         font-size: 20px;
            
  }
+#hide{
+    margin-left: 93%;
+    color:red;
+    text-align: center;
+}
+img .hideimg{
+    background-color: red;
+    
+}
