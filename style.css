@@ -96,6 +96,35 @@ body {
     font-family: Arial, Helvetica;
 }
 
+/*form section*/
+.form{
+    color:black;
+    box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
+    border: 1px solid black;
+    width: 80%;
+    height: 320px;
+    margin: 50px auto;
+    background-color: burlywood;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+
+}
+
+
+.press-button{
+    color:black;
+    box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
+    border: 1px solid black;
+    width: 80%;
+    height: 50px;
+    margin: 70px auto;
+    background-color: burlywood;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
 
 
 /*media query section*/
@@ -124,9 +153,9 @@ body {
         font-size: 1.1em;   
     }
     .picture-txt{
-        padding: 120px;
+        padding: 140px;
         color: white;
-        font-size: 0.5em;
+        font-size: 0.8em;
     
     }
     .form{
@@ -134,7 +163,7 @@ body {
     box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
     border: 1px solid black;
     width: 80%;
-    height: 600px;
+    height: 300px;
     margin: 50px auto;
     background-color: burlywood;
     font-family: 'Times New Roman';
@@ -224,7 +253,7 @@ nav, .bg{
 
 .view { 
  
-    background: url("images/ahmed2.jpg")no-repeat center center;
+    background: url("images/amina.jpg")no-repeat center center;
      background-size: cover;
      } 
 
@@ -288,7 +317,7 @@ nav, .bg{
         font-size: 1.1em;   
     }
     .picture-txt{
-        padding: 370px;
+        padding: 390px;
         color: white;
         font-size: 0.5em;
     
@@ -318,32 +347,3 @@ nav, .bg{
         font-size: 20px;
            
  }
-
-/*form section*/
-.form{
-    color:black;
-    box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
-    border: 1px solid black;
-    width: 80%;
-    height: 320px;
-    margin: 50px auto;
-    background-color: burlywood;
-    font-family: 'Times New Roman';
-    font-size: 18px;
-
-}
-
-
-.press-button{
-    color:black;
-    box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
-    border: 1px solid black;
-    width: 80%;
-    height: 50px;
-    margin: 70px auto;
-    background-color: burlywood;
-    font-family: 'Times New Roman';
-    font-size: 18px;
-    text-align: center;
-    padding: 10px;
-}
