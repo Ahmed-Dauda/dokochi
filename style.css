@@ -98,6 +98,7 @@ body {
 }
 
 /*form section*/
+
 .form{
     color:black;
     box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
@@ -111,6 +112,16 @@ body {
 
 }
 
+#hide{
+    margin-left: 93%;
+    color:red;
+    text-align: center;
+}
+
+img .hideimg{
+    background-color: red;
+    
+}
 
 .press-button{
     color:black;
@@ -175,8 +186,17 @@ body {
     background-color: burlywood;
     font-family: 'Times New Roman';
     font-size: 18px;
-   
+   }
+    
+   #hide{
+    margin-left: 93%;
+    color:red;
+    text-align: center;
+}
 
+img .hideimg{
+    background-color: red;
+    
 }
      
 
@@ -249,8 +269,31 @@ body {
         top: -30px;
         display: block;
         
-    
+    	}
+    .form{
+    color:black;
+    box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
+    border: 1px solid black;
+    width: 80%;
+    height: 350px;
+    margin: 50px auto;
+    background-color: burlywood;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+   
     }
+    #hide{
+    margin-left: 99%;
+    color:red;
+    text-align: center;
+}
+
+img .hideimg{
+    background-color: red;
+    
+}
+    
+    
      
 
 }
@@ -306,7 +349,30 @@ nav, .bg{
         color: white;
         font-size: 0.5em;
     
-    } 
+    }
+     .form{
+    color:black;
+    box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
+    border: 1px solid black;
+    width: 80%;
+    height: 360px;
+    margin: 50px auto;
+    background-color: burlywood;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+   }
+     #hide{
+    margin-left: 99%;
+    color:red;
+    text-align: center;
+}
+
+img .hideimg{
+    background-color: red;
+    
+}
+     
+
 }
 
 @media (min-width: 62em) {
@@ -334,7 +400,20 @@ nav, .bg{
         color: white;
         font-size: 0.5em;
     
-    } 
+    }
+    .form{
+    color:black;
+    box-shadow: 5px 10px 11px 5px rgba(0, 0, 0, 4);
+    border: 1px solid black;
+    width: 80%;
+    height: 360px;
+    margin: 50px auto;
+    background-color: burlywood;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+   
+
+}
 }
 
 
@@ -360,12 +439,25 @@ nav, .bg{
         font-size: 20px;
            
  }
-#hide{
-    margin-left: 93%;
-    color:red;
-    text-align: center;
-}
-img .hideimg{
-    background-color: red;
-    
-}
+
+
+
+/*amination*/
+
+.flex-1 { animation-duration: 10s;
+        animation-name: slidein; 
+        }
+        @keyframes slidein {
+        from { margin-left: 100%;
+        width: 200%;
+        } 
+        75% { 
+        font-size: 300%;
+        margin-left: 25%;
+        width: 150%; 
+        } 
+        to { 
+        margin-left: 0%;
+        width: 100%; 
+        }
+        }
