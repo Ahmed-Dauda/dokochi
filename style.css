@@ -39,13 +39,18 @@ body {
 }
 /*first image with texts section*/
 .picture-txt{
-    padding: 120px;
+    
+    padding: 150px;
     color: white;
     font-size: 15px;
 
 }
 
-
+a.nav-link{
+    font-size: 25px;
+    color: red;
+    
+}
 /* card section*/
 .flex-1{
     
@@ -61,7 +66,7 @@ body {
 }
 
 .pb-3{
-    font-style: italic;
+    font-style: normal;
     font-family: 'Times New Roman', Times, serif;
 
 }
@@ -90,6 +95,10 @@ body {
    color:white;
    font-size: 18px;
    
+}
+
+.fab{
+    font-size: 30px;
 }
 
 .page-footer{
@@ -170,7 +179,8 @@ img .hideimg{
         font-size: 0.9em;
         display: block;
         position: relative;
-        left: 120px;
+        left: 100px;
+        top: -30px;
         
         
         
@@ -434,25 +444,30 @@ img .hideimg{
         color: red;
         }
 
-.nav-link{
-        color: white;
-        font-size: 20px;
+textarea{
+        height: 100px;
+    text-align: center;
+    
+        
            
  }
 
 
 
 /*amination*/
-
-.flex-1 { animation-duration: 10s;
-        animation-name: slidein; 
+.card-body{
+    overflow: hidden;
+}
+.flex-1 { animation-duration: 5s;
+        animation-name: mymove; 
         }
-        @keyframes slidein {
-        from { margin-left: 100%;
+        @keyframes mymove {
+        from {
+        margin-left: 100%;
         width: 200%;
         } 
         75% { 
-        font-size: 300%;
+        font-size: 100%;
         margin-left: 25%;
         width: 150%; 
         } 
