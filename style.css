@@ -272,12 +272,12 @@ img .hideimg{
         font-size: 1.1em;   
     }
     .picture-txt{
-        padding: 170px;
+        padding: 270px;
         color: white;
         font-size: 1.0em;
         position: relative;
         left: 150px;
-        top: -30px;
+        top: 100px;
         display: block;
         
     	}
@@ -338,7 +338,7 @@ nav, .bg{
 @media (min-width: 62em) {
     .view { overflow: visible; 
         margin-top: -56px;
-    padding-top: 230px;
+    padding-top: 630px;
     font-size: 2rem;
     font-family: 'Times New Roman';
     text-shadow: 5px 6px 1px black;
@@ -356,7 +356,7 @@ nav, .bg{
         font-size: 1.1em;   
     }
     .picture-txt{
-        padding: 370px;
+        padding: 870px;
         color: white;
         font-size: 0.5em;
     
@@ -448,9 +448,12 @@ img .hideimg{
 textarea{
         height: 100px;
     text-align: center;
-    
-        
-           
+    margin: auto;
+             
+ }
+ 
+ .text-me{
+     width: 100%;
  }
 
 
