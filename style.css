@@ -174,13 +174,14 @@ img .hideimg{
         font-size: 1.1em;   
     }
     .picture-txt{
-        padding-top: 140px;
+        padding-top: 180px;
         color: black;
         font-size: 0.9em;
         display: block;
         position: relative;
-        left: 100px;
-        top: -30px;
+        left: 10px;
+        top: 100px;
+        right: 0px;
         
         
         
@@ -319,7 +320,7 @@ nav, .bg{
 
 .view { 
  
-    background: url("images/ahmed2.jpg")no-repeat center center;
+    background: url("images/dagaci.jpg")no-repeat center center;
      background-size: cover;
      } 
 
